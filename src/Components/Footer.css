@@ -1,0 +1,15 @@
+.options{
+    color: green ;
+
+}
+.options:hover{
+    border-bottom: 3px solid green ;
+}
+
+.icons{
+    display: flex;
+    justify-content:flex-start;
+    gap: 15px;
+    align-items: center;
+    
+}
