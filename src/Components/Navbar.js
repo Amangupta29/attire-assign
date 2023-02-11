@@ -6,7 +6,7 @@ import '../Components/Navbar.css';
 const Navbar = () => {
 	return (
 		<div>
-			{/* <nav class='navbar navbar-light bg-light '>
+			{/* <nav className='navbar navbar-light bg-light '>
 				<div className='main'> </div>
 
 				<img className='logo' src={logo}></img>
@@ -18,32 +18,32 @@ const Navbar = () => {
 						border: '1px solid red',
 					}}
 				>
-					<ul class='nav nav-tabs'>
-						<li class='nav-item'>
-							<a class='nav-link active' href='#'>
+					<ul className='nav nav-tabs'>
+						<li className='nav-item'>
+							<a className='nav-link active' href='#'>
 								Active
 							</a>
 						</li>
-						<li class='nav-item'>
-							<a class='nav-link' href='#'>
+						<li className='nav-item'>
+							<a className='nav-link' href='#'>
 								Link
 							</a>
 						</li>
-						<li class='nav-item'>
-							<a class='nav-link' href='#'>
+						<li className='nav-item'>
+							<a className='nav-link' href='#'>
 								Link
 							</a>
 						</li>
-						<li class='nav-item'>
-							<a class='nav-link disabled' href='#'>
+						<li className='nav-item'>
+							<a className='nav-link disabled' href='#'>
 								Disabled
 							</a>
 						</li>
 					</ul>
 				</div>
-				<form class='form-inline'>
+				<form className='form-inline'>
 					<input
-						class='form-control mr-sm-2'
+						className='form-control mr-sm-2'
 						type='search'
 						placeholder='Search'
 						aria-label='Search'
@@ -73,17 +73,17 @@ const Navbar = () => {
 								</span>
 								<i
 									style={{ display: 'inline', marginLeft: '5px' }}
-									class='fa-regular fa-circle-user'
+									className='fa-regular fa-circle-user'
 								></i>
 								<i
 									style={{ display: 'inline', marginLeft: '5px' }}
-									class='fa-solid fa-bag-shopping'
+									className='fa-solid fa-bag-shopping'
 								></i>
 							</div>
 
-							<form class='form-inline' style={{ borderColor: 'green' }}>
+							<form className='form-inline' style={{ borderColor: 'green' }}>
 								<input
-									class='form-control mr-sm-2'
+									className='form-control mr-sm-2'
 									type='search'
 									placeholder='Search'
 									aria-label='Search'
